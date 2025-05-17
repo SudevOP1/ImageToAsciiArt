@@ -1,11 +1,14 @@
-
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import CreateAsciiPage from "./pages/CreateAsciiPage"
 
 function App() {
 
   return (
-    <>
-      <p className="text-red-500">Yo</p>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<CreateAsciiPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
