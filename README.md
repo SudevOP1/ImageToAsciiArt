@@ -11,8 +11,8 @@ Just upload a photo and let the app convert it into a text-based version made of
 <br>
 
 ## 🛠️ Tech Stacks
-- **Frontend**: React
-- **Backend**: Django
+- **Frontend**: React + Tailwind
+- **Backend**: Django + Pillow
 <br>
 
 ## 🚀 How to run it locally
@@ -25,6 +25,8 @@ git clone https://github.com/SudevOP1/ImageToAsciiArt.git
 ```powershell
 cd ImageToAsciiArt/backend
 pip install -r requirements.txt
+python manage.py makemigratiosn
+python manage.py migrate
 python manage.py runserver
 ```
 ### 3. Frontend Server
