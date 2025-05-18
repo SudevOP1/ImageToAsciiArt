@@ -34,11 +34,12 @@ npm install
 npm run dev
 ```
 ### 4. See the magic happen
-Go to `http://localhost:5173`
+Go to `http://localhost:5173`<br>
 <br>
 
 ## ✨ Website Design
 ![Example](https://raw.githubusercontent.com/SudevOP1/ImageToAsciiArt/main/Implementation.png)
+<br>
 
 ## 📸 Outputs
 ```
